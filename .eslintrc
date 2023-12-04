@@ -1,0 +1,25 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base"
+  ],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "no-console": "off",
+    "max-len": ["warn", { "code": 140 } ],
+    "import/no-unresolved": "off",
+    "import/extensions": ["off"],
+    "semi": "off",
+    "no-extra-semi": "off",
+    "no-await-in-loop": "off",
+    "linebreak-style": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
